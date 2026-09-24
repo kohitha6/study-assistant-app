@@ -1,0 +1,9 @@
+{
+  "name": "study-assistant-app",
+  "private": true,
+  "scripts": {
+    "client": "npm --prefix client run dev --",
+    "server": "npm --prefix server start",
+    "build": "npm --prefix client run build"
+  }
+}

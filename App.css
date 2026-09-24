@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.app-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.input-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.input-form button {
+    margin-top: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.input-form button:disabled {
+    background-color: #a0c3f5;
+    cursor: not-allowed;
+}
+
+.error-banner {
+    background-color: #fde8e8;
+    border: 1px solid #f98080;
+    color: #9b1c1c;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.study-workspace {
+    margin-top: 25px;
+}
+
+.workspace-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.workspace-tabs button {
+    flex: 1;
+    padding: 10px;
+    background: #e5e7eb;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.workspace-tabs button.active {
+    background: #1a73e8;
+    color: white;
+}
+
+.flashcard-container {
+    text-align: center;
+}
+
+.flashcard {
+    background: #fff;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    height: 220px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+.flashcard:hover {
+    border-color: #1a73e8;
+}
+
+.card-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0.75rem;
+    background: #f1f3f4;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #5f6368;
+}
+
+.flashcard-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.flashcard-controls button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
